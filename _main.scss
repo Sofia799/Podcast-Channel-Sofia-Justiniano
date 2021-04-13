@@ -350,7 +350,7 @@
         font-size: 64px;
         font-family: 'IBM Plex Sans';
         color: $primary-color;
-        margin: 120px 100px 0 200px;
+        margin: 120px 100px 0 150px;
         padding: 10px;
     }
     .world {
@@ -365,7 +365,7 @@
         width: 628px;
         font-size: 16px;
         font-family: 'IBM Plex Mono', monospace;
-        margin: 0 612px 0 200px;
+        margin: 0 612px 0 150px;
         line-height: 24px;
         font-weight: bold;
         color: $primary-color;
@@ -375,7 +375,7 @@
         @include button;
         width: 20%;
         height: 56px;
-        margin: 56px auto 5px 200px;
+        margin: 56px auto 5px 150px;
         font-size: 18px;
     }
     button:hover {
@@ -391,7 +391,7 @@
         flex-direction: column;
         background-image: $secondary-color-gardient;
         z-index: 1;
-        clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 100%);
+        clip-path: polygon(0 15%, 100% 0, 100% 80%, 0 100%);
     }
     .tittle-episodio {
         margin: 150px auto 0 200px;
