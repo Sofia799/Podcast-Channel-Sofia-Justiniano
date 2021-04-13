@@ -21,6 +21,7 @@
         margin: 64px 16px 0 16px;
         text-align: center;
         align-self: center;
+        color: $white-color
     }
     .button-episodios {
         @include button;
@@ -68,6 +69,7 @@
         margin: 120px 16px 0 16px;
         text-align: center;
         align-self: center;
+        color: $white-color
     }
     .button-episodios {
         @include button;
