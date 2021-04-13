@@ -1,10 +1,6 @@
 @import "./variables";
 @import "./mixins";
-
-/*Celular*/
-
 @media screen and (max-width: 640px) {
-    // section hello
     .hello {
         width: 100%;
         height: auto;
@@ -24,16 +20,8 @@
         @include button;
         width: 90%;
         height: 48px;
-        //background-color: $secondary-color;
-        //border: none;
         margin: 0 16px 24px 16px;
-        //font-family: 'IBM Plex Mono', medium;
         font-size: 16px;
-        //text-align: center;
-        //line-height: 22px;
-        //font-weight: bold;
-        //align-self: center;
-        //outline: none;
     }
     button:hover {
         background-image: $primary-color-gardient-variant;
@@ -61,7 +49,6 @@
         font-weight: 600;
         color: $primary-color;
     }
-    //section episodios
     .episodios-background {
         width: 100%;
         height: 1000px;
@@ -81,7 +68,7 @@
         color: white;
         font-family: 'IBM Plex Sans', sans-serif;
         line-height: 42px;
-        font-weight: 550;
+        font-weight: 600;
     }
     .container-iframes {
         width: 100%;
@@ -97,7 +84,6 @@
         padding: 0 16px 0 16px;
         border: none;
     }
-    // section donde-venimos
     .section-donde-venimos {
         display: flex;
         flex-direction: column;
@@ -108,8 +94,6 @@
         justify-content: center;
         width: 100%;
         margin-top: -150px;
-        //z-index: 1;
-        //position: relative;
     }
     .image-phone {
         width: 80%;
@@ -125,7 +109,7 @@
     .tittle-donde-venimos {
         margin: 27px auto 8px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
         text-align: left;
     }
     .donde-venimos-div p {
@@ -134,15 +118,14 @@
         color: #060A24;
         font-family: 'IBM Plex Mono', monospace;
         line-height: 22px;
-        font-weight: 650;
+        font-weight: 600;
         margin-left: 16px;
         margin-right: 16px;
     }
-    // section invitados
     .tittle-invitados {
         margin: 54px auto 14px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-photos {
         width: 100%;
@@ -153,12 +136,11 @@
         width: 100%;
         margin-top: 0;
     }
-    //section nuestros-temas
     .tittle-nuestros-temas {
         width: auto;
         margin: 48px 16px 24px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-icons {
         display: flex;
@@ -188,11 +170,7 @@
     }
 }
 
-
-/* Tablet */
-
 @media screen and (min-width: 641px) {
-    // section hello
     .hello {
         width: 100%;
         height: auto;
@@ -212,16 +190,8 @@
         @include button;
         width: 60%;
         height: 48px;
-        //background-color: $secondary-color;
-        //border: none;
         margin: 0 16px 24px 16px;
-        //font-family: 'IBM Plex Mono', medium;
         font-size: 16px;
-        //text-align: center;
-        //line-height: 22px;
-        //font-weight: bold;
-        //align-self: center;
-        //outline: none;
     }
     button:hover {
         background-image: $primary-color-gardient-variant;
@@ -249,7 +219,6 @@
         font-weight: 600;
         color: $primary-color;
     }
-    //section episodios
     .episodios-background {
         width: 100%;
         height: 1000px;
@@ -269,7 +238,7 @@
         color: white;
         font-family: 'IBM Plex Sans', sans-serif;
         line-height: 42px;
-        font-weight: 550;
+        font-weight: 500;
     }
     .container-iframes {
         width: 100%;
@@ -285,7 +254,6 @@
         padding: 0 16px 0 16px;
         border: none;
     }
-    // section donde-venimos
     .section-donde-venimos {
         display: flex;
         flex-direction: column;
@@ -297,8 +265,6 @@
         float: left;
         width: 48%;
         margin-top: -150px;
-        //z-index: 1;
-        //position: relative;
     }
     .image-phone {
         width: 100%;
@@ -313,7 +279,7 @@
     .tittle-donde-venimos {
         margin: 27px auto 8px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
         text-align: left;
     }
     .clearfix {
@@ -325,15 +291,14 @@
         color: #060A24;
         font-family: 'IBM Plex Mono', monospace;
         line-height: 22px;
-        font-weight: 650;
+        font-weight: 600;
         margin-left: 16px;
         margin-right: 16px;
     }
-    // section invitados
     .tittle-invitados {
         margin: 54px auto 14px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-photos {
         width: 100%;
@@ -345,12 +310,11 @@
         width: 50%;
         margin-top: 0;
     }
-    //section nuestros-temas
     .tittle-nuestros-temas {
         width: auto;
         margin: 48px 16px 40px 16px;
         color: #060A24;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-icons {
         display: flex;
@@ -380,9 +344,6 @@
         margin: 13px 16px 36px 16px;
     }
 }
-
-
-/* Web */
 
 @media screen and (min-width: 1024px) {
     .tittle-hello {
@@ -414,14 +375,8 @@
         @include button;
         width: 20%;
         height: 56px;
-        //background-color: $secondary-color;
-        //border: none;
         margin: 56px auto 5px 200px;
-        //font-family: 'IBM Plex Mono', medium;
         font-size: 18px;
-        //text-align: center;
-        //color: $primary-color;
-        //font-weight: bolder;
     }
     button:hover {
         cursor: pointer;
@@ -429,7 +384,6 @@
         background-image: $primary-color-gardient;
         color: $white-color;
     }
-    // section episodios
     .episodios-background {
         width: 100%;
         height: 900px;
@@ -444,7 +398,7 @@
         font-size: 48px;
         color: $white-color;
         font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 550;
+        font-weight: 500;
     }
     .container-iframes {
         width: 100%;
@@ -461,7 +415,6 @@
         border: none;
         margin-top: 50px;
     }
-    // section donde-venimos
     .section-donde-venimos {
         display: flex;
         justify-content: center;
@@ -497,13 +450,12 @@
         color: $primary-color;
         font-family: 'IBM Plex Mono', monospace;
     }
-    //container photos invitados
     .tittle-invitados {
         margin: 64px auto 36px 200px;
         font-size: 48px;
         font-family: 'IBM Plex Sans', sans-serif;
         color: $primary-color;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-photos {
         width: 100%;
@@ -515,13 +467,12 @@
         width: 33.3%;
         margin-top: 0;
     }
-    //section nuestros-temas
     .tittle-nuestros-temas {
         margin: 64px 200px 56px 200px;
         font-size: 48px;
         font-family: 'IBM Plex Sans', sans-serif;
         color: $primary-color;
-        font-weight: 650;
+        font-weight: 600;
     }
     .container-icons {
         display: flex;

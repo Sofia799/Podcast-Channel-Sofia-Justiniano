@@ -1,9 +1,5 @@
 @import "./variables";
-
-/* Celular */
-
 @media screen and (max-width: 640px) {
-    //header
     header {
         display: flex;
         justify-content: space-between;
@@ -95,11 +91,7 @@
     }
 }
 
-
-/* Tablet */
-
 @media screen and (min-width: 641px) {
-    //header
     header {
         display: flex;
         justify-content: space-between;
@@ -192,9 +184,6 @@
     }
 }
 
-
-/* Web */
-
 @media screen and (min-width: 1024px) {
     header {
         display: flex;
@@ -214,9 +203,7 @@
         margin: 22px 0px 22px 100px;
     }
     input#abrir-cerrar,
-    input {
-        display: none;
-    }
+    input,
     label,
     .toggle-button {
         display: none;
@@ -227,7 +214,7 @@
         margin: auto;
         width: 50%;
         position: static;
-        background-color: white;
+        background-color: $white-color;
         margin-right: 100px;
     }
     .nav-menu ul {
