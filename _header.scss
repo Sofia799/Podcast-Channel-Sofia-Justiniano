@@ -221,7 +221,6 @@
     .toggle-button {
         display: none;
     }
-    // nav
     .nav-menu {
         display: flex;
         flex-direction: row;
@@ -245,6 +244,10 @@
         text-decoration: none;
         font-size: 16px;
         color: $primary-color;
+    }
+    .item:visited {
+        color: $primary-color-variant;
+        text-decoration: line-through;
     }
     .item:hover {
         color: $secondary-color;

@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 /*Celular*/
 
@@ -20,17 +21,19 @@
         line-height: 42px;
     }
     button {
+        @include button;
         width: 90%;
         height: 48px;
-        background-color: $secondary-color;
-        border: none;
+        //background-color: $secondary-color;
+        //border: none;
         margin: 0 16px 24px 16px;
-        font-family: 'IBM Plex Mono', medium;
+        //font-family: 'IBM Plex Mono', medium;
         font-size: 16px;
-        text-align: center;
-        line-height: 22px;
-        font-weight: bold;
-        align-self: center;
+        //text-align: center;
+        //line-height: 22px;
+        //font-weight: bold;
+        //align-self: center;
+        //outline: none;
     }
     button:hover {
         background-image: $primary-color-gardient-variant;
@@ -183,26 +186,6 @@
         padding: 0;
         margin: 13px 16px 36px 16px;
     }
-    // section ultimas-novedades
-    .ultimas-novedades {
-        width: 100%;
-        height: 330px;
-        margin-top: 42px;
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        z-index: 1;
-        clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 90%);
-        display: flex;
-        flex-direction: column;
-    }
-    .tittle-ultimas-novedades {
-        margin: 64px 16px 0 16px;
-        text-align: center;
-        align-self: center;
-    }
-    .button-episodios {
-        width: 80%;
-        margin: 36px auto 67px auto;
-    }
 }
 
 
@@ -225,19 +208,20 @@
         margin: 0 70px 0 16px;
         line-height: 42px;
     }
-    // button
     button {
+        @include button;
         width: 60%;
         height: 48px;
-        background-color: $secondary-color;
-        border: none;
+        //background-color: $secondary-color;
+        //border: none;
         margin: 0 16px 24px 16px;
-        font-family: 'IBM Plex Mono', medium;
+        //font-family: 'IBM Plex Mono', medium;
         font-size: 16px;
-        text-align: center;
-        line-height: 22px;
-        font-weight: bold;
-        align-self: center;
+        //text-align: center;
+        //line-height: 22px;
+        //font-weight: bold;
+        //align-self: center;
+        //outline: none;
     }
     button:hover {
         background-image: $primary-color-gardient-variant;
@@ -395,26 +379,6 @@
         padding: 0;
         margin: 13px 16px 36px 16px;
     }
-    // section ultimas-novedades
-    .ultimas-novedades {
-        width: 100%;
-        height: 330px;
-        margin-top: 42px;
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        z-index: 1;
-        clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 90%);
-        display: flex;
-        flex-direction: column;
-    }
-    .tittle-ultimas-novedades {
-        margin: 64px 16px 0 16px;
-        text-align: center;
-        align-self: center;
-    }
-    .button-episodios {
-        width: 80%;
-        margin: 36px auto 67px auto;
-    }
 }
 
 
@@ -447,16 +411,17 @@
         padding: 10px;
     }
     button {
+        @include button;
         width: 20%;
         height: 56px;
-        background-color: $secondary-color;
-        border: none;
+        //background-color: $secondary-color;
+        //border: none;
         margin: 56px auto 5px 200px;
-        font-family: 'IBM Plex Mono', medium;
+        //font-family: 'IBM Plex Mono', medium;
         font-size: 18px;
-        text-align: center;
-        color: $primary-color;
-        font-weight: bolder;
+        //text-align: center;
+        //color: $primary-color;
+        //font-weight: bolder;
     }
     button:hover {
         cursor: pointer;
@@ -584,47 +549,4 @@
         text-align: center;
         margin: 29px auto 34px auto;
     }
-    // section ultimas-novedades
-    .ultimas-novedades {
-        width: 100%;
-        height: 330px;
-        background-image: $secondary-color-gardient;
-        z-index: 1;
-        clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 90%);
-        display: flex;
-        flex-direction: column;
-    }
-    .tittle-ultimas-novedades {
-        margin: 64px 16px 0 16px;
-        font-size: 48px;
-        font-family: 'IBM Plex Sans';
-        text-align: center;
-        align-self: center;
-        color: $white-color;
-    }
-    .button-episodios {
-        width: 30%;
-        height: auto;
-        padding: 18px;
-        background-color: $secondary-color;
-        border: none;
-        margin: 36px 16px auto 16px;
-        font-family: 'IBM Plex Mono', medium;
-        font-size: 16px;
-        text-align: center;
-        line-height: 22px;
-        font-weight: bold;
-        align-self: center;
-    }
 }
-
-
-/*
-@media screen and (max-width: 920px) {
-    .donde-venimos-div {
-        float: left;
-        width: 50%;
-        margin-top: -20px;
-    }
-}
-*/
