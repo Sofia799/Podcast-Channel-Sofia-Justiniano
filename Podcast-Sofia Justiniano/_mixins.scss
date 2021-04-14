@@ -1,0 +1,19 @@
+@import "./variables";
+@mixin format-document {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@mixin button {
+    background-color: $secondary-color;
+    border: none;
+    font-family: 'IBM Plex Mono', medium;
+    text-align: center;
+    line-height: 22px;
+    font-weight: bold;
+    outline: none;
+    color: $primary-color;
+}
