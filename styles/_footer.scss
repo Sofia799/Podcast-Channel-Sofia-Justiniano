@@ -48,6 +48,9 @@
         justify-content: space-around;
         margin: 16px auto;
     }
+    .container-i a {
+        color: black;
+    }
 }
 
 @media screen and (min-width: 641px) {
@@ -97,6 +100,9 @@
         width: 268px;
         justify-content: space-around;
         margin-right: 60px;
+    }
+    .container-i a {
+        color: black;
     }
 }
 
@@ -153,5 +159,8 @@
         width: 268px;
         justify-content: space-around;
         margin-right: 100px;
+    }
+    .container-i a {
+        color: black;
     }
 }
